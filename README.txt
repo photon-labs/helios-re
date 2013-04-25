@@ -1,0 +1,26 @@
+Reverse Engineering in Objective-C
+
+Nikhil Patel
+nikhil.patel@photoninfotech.net
+
+25-04-2013
+
+-----------------------------------
+
+STEPS :
+
+1. Install Maven.
+
+2. Install the JGraphX JAR in the Maven Local Repository using the command : 
+
+	mvn install:install-file -Dfile=lib\jgraphx.jar -DgroupId=com.mxgraph -DartifactId=jgraphx -Dversion=1.0 -Dpackaging=jar
+
+3. Build the project using the command : 
+
+	mvn clean install
+
+4. Run the project using the command :
+	
+	java -cp target\objective-c-0.1-SNAPSHOT-jar-with-dependencies.jar -Xmx1024m com.photon.reverseEngg.Main input
+
+5. The resulting image will be saved in the directory "output" as "result.svg".
