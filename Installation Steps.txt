@@ -1,14 +1,3 @@
-Reverse Engineering in Objective-C
-
-Nikhil Patel
-nikhil.patel@photoninfotech.net
-
-25-04-2013
-
------------------------------------
-
-STEPS :
-
 1. Install Maven.
 
 2. Install the JGraphX JAR in the Maven Local Repository using the command : 
